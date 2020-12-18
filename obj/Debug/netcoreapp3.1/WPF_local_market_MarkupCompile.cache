@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\Torkhan\source\repos\WPF_local_market\App.xaml
-11151548125
+3-577183195
 
-12-485207199
+14-861510015
 218-1102103497
-MainWindow.xaml;
+MainWindow.xaml;Views\StoresControl.xaml;Views\UsersControl.xaml;
 
-False
+True
 

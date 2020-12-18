@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:WPF_local_market"
         mc:Ignorable="d"
         Title="Local Market Admin" Height="450" Width="800">
-    <Grid>
+    <StackPanel>
+        <Menu >
+            <MenuItem FontSize="18" Padding="10" Margin="10" Width="350" Background="Lavender" HorizontalAlignment="Center" VerticalAlignment="Center" Header="Utilisateurs"/>
+            <MenuItem FontSize="18" Padding="10" Margin="10" Width="350" Background="Lavender" Header="Magasins"/>
+           
+            
+        </Menu>
+    </StackPanel>
+        
 
-    </Grid>
+    
 </Window>

@@ -5965,19 +5965,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrateur\\.nuget\\packages\\": {}
+    "C:\\Users\\Torkhan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\WPF_local_market\\WPF_local_market.csproj",
+      "projectUniqueName": "C:\\Users\\Torkhan\\Source\\Repos\\WPF_local_market\\WPF_local_market.csproj",
       "projectName": "WPF_local_market",
-      "projectPath": "C:\\Users\\Administrateur\\Documents\\WPF_local_market\\WPF_local_market.csproj",
-      "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrateur\\Documents\\WPF_local_market\\obj\\",
+      "projectPath": "C:\\Users\\Torkhan\\Source\\Repos\\WPF_local_market\\WPF_local_market.csproj",
+      "packagesPath": "C:\\Users\\Torkhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Torkhan\\Source\\Repos\\WPF_local_market\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Torkhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6044,7 +6044,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

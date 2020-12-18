@@ -8,7 +8,7 @@ productAvailability BIT NOT NULL,
 );
 
 CREATE TABLE ProductBaskets (
-  idpoductBasket  INT PRIMARY KEY IDENTITY(1,1),
+  idProductBasket  INT PRIMARY KEY IDENTITY(1,1),
   quantity INT NOT NULL,
   products_idProduct INT NOT NULL
 );
@@ -17,8 +17,8 @@ CREATE TABLE Baskets (
   idBasket INT PRIMARY KEY IDENTITY(1,1),
   basketTotal DECIMAL NOT NULL,
   basketDelivery VARCHAR(45) NOT NULL,
-  poductBasket_idpoductBasket INT NOT NULL,
-  poductBasket_Products_idProduct INT NOT NULL
+  productBasket_idproductBasket INT NOT NULL,
+  productBasket_Products_idProduct INT NOT NULL
 );
 
 CREATE TABLE Zip (
@@ -28,10 +28,10 @@ CREATE TABLE Zip (
 );
 
 CREATE TABLE Stores (
-  idStores INT PRIMARY KEY IDENTITY(1,1),
+  idStore INT PRIMARY KEY IDENTITY(1,1),
   storeName VARCHAR(80) NOT NULL,
   storeCategory VARCHAR(100) NOT NULL,
-  storeAdress VARCHAR(100) NOT NULL,
+  storeAddress VARCHAR(100) NOT NULL,
   storeFacingImg VARCHAR(80) NOT NULL,
   storeCardImg VARCHAR(80) NOT NULL,
   storeDescription VARCHAR(80) NOT NULL,
@@ -50,14 +50,14 @@ CREATE TABLE Users (
   userLastName VARCHAR(100) NOT NULL,
   userEmail VARCHAR(100) NOT NULL,
   userPassword VARCHAR(50) NOT NULL,
-  userAdress1 VARCHAR(100) NOT NULL,
-  userAdress2 VARCHAR(100) NOT NULL,
+  userAddress1 VARCHAR(100) NOT NULL,
+  userAddress2 VARCHAR(100) NOT NULL,
   userPhone VARCHAR(10) NOT NULL,
   userStatus BIT NOT NULL,
   zip_idZip INT NOT NULL,
   baskets_idBasket INT NOT NULL,
-  baskets_poductBasket_idpoductBasket INT NOT NULL,
-  baskets_poductBasket_Products_idProduct INT NOT NULL
+  baskets_productBasket_idProductBasket INT NOT NULL,
+  baskets_productBasket_Products_idProduct INT NOT NULL
 );
 
 CREATE TABLE Pros (

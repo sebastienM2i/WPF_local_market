@@ -1,20 +1,20 @@
 ﻿WPF_local_market
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\Torkhan\Source\Repos\WPF_local_market\obj\Debug\netcoreapp3.1\
+C:\Users\Torkhan\Source\Repos\WPF_local_market\obj\Release\netcoreapp3.1\
 WPF_local_market
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\Torkhan\Source\Repos\WPF_local_market\App.xaml
 11151548125
 
-7-108140626
+5724901747
 218-1102103497
 MainWindow.xaml;
 
-False
+True
 
